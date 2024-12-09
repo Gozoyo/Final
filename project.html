@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects_style.css">
+</head>
+<body>
+    <header>
+        <div class="navcontainer">
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <span class="navbar-name">Zhengyue<strong>Guo</strong></span>
+                </div>
+                <div class="navbar-center">
+                    <img src="img/Vector 1.png" alt="Logo" class="navbar-logo">
+                </div>
+                <div class="navbar-right">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="project.html" class="nav-link">Projects</a>
+                    <a href="dreams.html" class="nav-link">Dreams</a>                             
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/arduino.png" alt="arduino" class="project-image" onclick="goToProjectPage('arduino')">
+                    <div class="project-text">
+                        <h2>Arduino</h2>
+                        <p>Using Arduino to realize simple function.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/deeplearning.png" alt="deeplearning" class="project-image" onclick="goToProjectPage('deeplearning')">
+                    <div class="project-text">
+                        <h2>Deeplearning</h2>
+                        <p>Learn to use AI, I and my team has done a project based on deeplearning.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/flying.jpg" alt="flying" class="project-image" onclick="goToProjectPage('flying')">
+                    <div class="project-text">
+                        <h2>Math modling - flying</h2>
+                        <p>Math modling can help solving lots of questions. Find out whether low-cost airline or normal airline can earn more money.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/leapyear.jpg" alt="leapyear" class="project-image" onclick="goToProjectPage('leapyear')">
+                    <div class="project-text">
+                        <h2>Math modling - leapyear</h2>
+                        <p>We all know that 2/29 is the leap year's extra day. But is it that simple to set the leapyear?</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/♾️＿WHO.png" alt="Music_calendar" class="project-image" onclick="goToProjectPage('music_calendar')">
+                    <div class="project-text">
+                        <h2>Music_calendar</h2>
+                        <p>I make poster for all kinds of event. This is a group of poster that I have made for the music_calendar event.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/inifinity 2024 fall.jpg" alt="Music" class="project-image" onclick="goToProjectPage('music_journey')">
+                    <div class="project-text">
+                        <h2>Music_journey</h2>
+                        <p>My passion last long in music. I love listening to music and play music. Here is a brief introduction to my music journey.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="hover-text">Click to show more</div>
+                    <img src="img/webdesign.png" alt="Webdesign" class="project-image" onclick="goToProjectPage('webdesign')">
+                    <div class="project-text">
+                        <h2>Webdesign</h2>
+                        <p>I start learning webdesign this semester, and here is my first website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="project.js"></script>
+    <footer>
+        <p>© 2024 Zhengyue Guo</p>
+    </footer>
+</body>
+</html>

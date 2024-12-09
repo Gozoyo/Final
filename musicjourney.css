@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 60px;
+}
+
+/* Back to Projects Button */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.back-button:hover {
+    background-color: #e65a00;
+}
+
+/* Part Section */
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #ff6a00;
+    text-align: center;
+}
+
+.title:hover{
+    font-size: 2.1rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    padding: 0 10px;
+}
+
+footer {
+    background-color: #ff6a00;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }

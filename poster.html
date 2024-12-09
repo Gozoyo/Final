@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posters</title>  
+    <link rel="stylesheet" href="poster.css">
+</head>
+<body>
+    <div class="photo-viewer-container">
+        <!-- Left: Photo Display Section -->
+        <div class="photo-display">
+            <!-- Top Navigation -->
+            <div class="photo-controls">
+                <button id="home-button">More Projects</button>
+            </div>
+            <!-- Main Photo and Navigation -->
+            <div class="photo-main">
+                <button class="arrow left-arrow" id="prev-photo">&lt;</button>
+                <img id="main-photo" src="img/20241118_poster.PNG" alt="Main Photo">
+                <button class="arrow right-arrow" id="next-photo">&gt;</button>
+            </div>
+            <!-- Thumbnail Preview -->
+            <div class="thumbnail-preview">
+                <img class="thumbnail" src="img/20241118_poster.PNG" alt="Thumbnail 1" data-index="0">
+                <img class="thumbnail" src="img/20241125_Poster.PNG" alt="Thumbnail 2" data-index="1">
+                <img class="thumbnail" src="img/20241202_poster.PNG" alt="Thumbnail 3" data-index="2">
+                <img class="thumbnail" src="img/20241209.PNG" alt="Thumbnail 4" data-index="3">
+                <img class="thumbnail" src="img/Music_calendar.PNG" alt="Thumbnail 5" data-index="4">
+            </div>
+        </div>
+
+        <!-- Right: Text Section -->
+        <div class="photo-description">
+            <h1 class="section-title">Music Calendar</h1>
+            <h2 id="photo-title">Photo Title 1</h2>
+            <p id="photo-text">This is the description of the first photo. Each photo has its own story to tell.</p>
+        </div>
+    </div>
+    <script src="poster.js"></script>
+</body>
