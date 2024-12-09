@@ -2,7 +2,7 @@
 function goToProjectPage(projectName) {
     switch (projectName) {
         case 'arduino':
-            window.location.href = 'arduino.html'; // Replace with actual project page URL
+            window.location.href = 'Arduino.html'; // Replace with actual project page URL
             break;
         case 'deeplearning':
             window.location.href = 'deeplearning.html';
